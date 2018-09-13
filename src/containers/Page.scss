@@ -1,0 +1,18 @@
+[class*='Page'] {
+	height: 100%;
+	padding-top: 6rem;
+	overflow: hidden;
+
+	.content {
+		padding: 1.7rem 35px 5rem 35px;
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	.collapsible {
+		cursor: pointer;
+	}
+	.collapsible:before {
+		content: "> ";
+	}
+}
